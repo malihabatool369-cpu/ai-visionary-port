@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export function Footer() {
   return (
@@ -12,10 +12,10 @@ export function Footer() {
             <Mail size={18} />
           </a>
           <a href="https://github.com/" target="_blank" rel="noreferrer" className="p-2 hover:text-primary transition" aria-label="GitHub">
-            <Github size={18} />
+            <size={18} />
           </a>
           <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" className="p-2 hover:text-accent transition" aria-label="LinkedIn">
-            <Linkedin size={18} />
+            <size={18} />
           </a>
         </div>
       </div>

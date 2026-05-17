@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, Linkedin, Github, Send, Check } from "lucide-react";
+import { Mail, Phone, Send, Check } from "lucide-react";
 
 export function Contact() {
   const [sent, setSent] = useState(false);
@@ -70,7 +70,7 @@ export function Contact() {
                   className="p-3 glass rounded-xl hover:text-accent hover:shadow-[var(--shadow-glow-magenta)] transition"
                   aria-label="LinkedIn"
                 >
-                  <Linkedin size={18} />
+                  <size={18} />
                 </a>
                 <a
                   href="https://github.com/"
@@ -78,7 +78,7 @@ export function Contact() {
                   className="p-3 glass rounded-xl hover:text-primary hover:shadow-[var(--shadow-glow-cyan)] transition"
                   aria-label="GitHub"
                 >
-                  <Github size={18} />
+                  <size={18} />
                 </a>
               </div>
             </div>

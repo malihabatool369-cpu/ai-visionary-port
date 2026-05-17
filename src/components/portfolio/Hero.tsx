@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Github, Linkedin, Sparkles } from "lucide-react";
+import { ArrowRight, Sparkles } from "lucide-react";
 import heroImg from "@/assets/hero-ai.jpg";
 
 export function Hero() {
@@ -71,7 +71,7 @@ export function Hero() {
                 className="p-2.5 glass rounded-full hover:text-primary hover:shadow-[var(--shadow-glow-cyan)] transition-all"
                 aria-label="GitHub"
               >
-                <Github size={18} />
+                <size={18} />
               </a>
               <a
                 href="https://www.linkedin.com/"
@@ -79,7 +79,7 @@ export function Hero() {
                 className="p-2.5 glass rounded-full hover:text-accent hover:shadow-[var(--shadow-glow-magenta)] transition-all"
                 aria-label="LinkedIn"
               >
-                <Linkedin size={18} />
+                <size={18} />
               </a>
             </div>
           </motion.div>

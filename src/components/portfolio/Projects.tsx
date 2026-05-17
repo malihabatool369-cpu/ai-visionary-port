@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, ArrowUpRight, Star } from "lucide-react";
+import { ArrowUpRight, Star } from "lucide-react";
 
 const projects = [
   {
@@ -74,7 +74,7 @@ export function Projects() {
             target="_blank" rel="noreferrer"
             className="inline-flex items-center gap-2 glass px-5 py-2.5 rounded-full text-sm hover:bg-white/10 transition-colors"
           >
-            <Github size={16} /> View all repositories
+            <size={16} /> View all repositories
           </a>
         </div>
 
