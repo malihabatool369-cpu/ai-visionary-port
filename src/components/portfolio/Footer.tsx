@@ -13,10 +13,10 @@ export function Footer() {
             <Mail size={18} />
           </a>
           <a href="https://github.com/" target="_blank" rel="noreferrer" className="p-2 hover:text-primary transition" aria-label="GitHub">
-            <size={18} />
+            <GithubIcon width={18} height={18} />
           </a>
           <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" className="p-2 hover:text-accent transition" aria-label="LinkedIn">
-            <size={18} />
+            <LinkedinIcon width={18} height={18} />
           </a>
         </div>
       </div>
