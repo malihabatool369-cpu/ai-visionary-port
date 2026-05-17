@@ -71,7 +71,7 @@ export function Contact() {
                   className="p-3 glass rounded-xl hover:text-accent hover:shadow-[var(--shadow-glow-magenta)] transition"
                   aria-label="LinkedIn"
                 >
-                  <size={18} />
+                  <LinkedinIcon width={18} height={18} />
                 </a>
                 <a
                   href="https://github.com/"
@@ -79,7 +79,7 @@ export function Contact() {
                   className="p-3 glass rounded-xl hover:text-primary hover:shadow-[var(--shadow-glow-cyan)] transition"
                   aria-label="GitHub"
                 >
-                  <size={18} />
+                  <GithubIcon width={18} height={18} />
                 </a>
               </div>
             </div>
