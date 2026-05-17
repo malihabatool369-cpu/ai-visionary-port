@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { GithubIcon, LinkedinIcon } from "@/components/portfolio/SocialIcons";
 import { motion } from "framer-motion";
 import { Mail, Phone, Send, Check } from "lucide-react";
 

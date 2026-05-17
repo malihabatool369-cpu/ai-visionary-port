@@ -1,4 +1,5 @@
 import { Mail } from "lucide-react";
+import { GithubIcon, LinkedinIcon } from "@/components/portfolio/SocialIcons";
 
 export function Footer() {
   return (

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { GithubIcon, LinkedinIcon } from "@/components/portfolio/SocialIcons";
 import { ArrowUpRight, Star } from "lucide-react";
 
 const projects = [

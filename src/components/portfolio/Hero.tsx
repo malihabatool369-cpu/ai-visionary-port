@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { GithubIcon, LinkedinIcon } from "@/components/portfolio/SocialIcons";
 import { ArrowRight, Sparkles } from "lucide-react";
 import heroImg from "@/assets/hero-ai.jpg";
 
